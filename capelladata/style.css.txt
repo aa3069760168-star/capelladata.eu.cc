@@ -1,0 +1,124 @@
+/* 页面整体 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f6f7f9;
+  color: #1e1e1e;
+  line-height: 1.6;
+}
+
+/* 顶部导航 */
+.topbar {
+  background: #0f3b63;
+  color: #fff;
+  padding: 15px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar .logo {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.topbar nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 16px;
+  font-size: 0.9rem;
+}
+.topbar nav a:hover {
+  text-decoration: underline;
+}
+
+/* 首屏 */
+.hero {
+  padding: 80px 8% 70px;
+  background: #eef4f9;
+  text-align: left;
+}
+.hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  color: #0f3b63;
+}
+.hero p {
+  max-width: 540px;
+}
+.hero button {
+  margin-top: 20px;
+  background: #0f3b63;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero button:hover {
+  opacity: 0.9;
+}
+
+/* 通用区块 */
+.section {
+  padding: 55px 8%;
+  background: #fff;
+  margin-bottom: 15px;
+}
+.section h2 {
+  margin-bottom: 15px;
+  color: #0f3b63;
+}
+
+/* 卡片布局 */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 15px;
+}
+.card {
+  background: #f6f7f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+/* 团队 */
+.team {
+  background: #f8f9fb;
+}
+.team-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 500px;
+}
+.team-box img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #0f3b63;
+}
+
+/* 底部 */
+footer {
+  text-align: center;
+  padding: 25px 0;
+  background: #0f3b63;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* 手机适配 */
+@media (max-width: 720px) {
+  .hero {
+    text-align: left;
+    padding-top: 60px;
+  }
+  .team-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

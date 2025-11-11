@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Capella Data Inc. – Fintech · San Francisco</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">Capella Data</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Solutions</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Data clarity for real finance.</h1>
+    <p>We build B2B fintech tools in San Francisco. AI, data, and clean execution — not buzzwords.</p>
+    <button onclick="contactWA()">WhatsApp us</button>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Capella Data</h2>
+    <p>
+      Capella Data is a fintech startup based in San Francisco, focusing on AI-driven data analytics
+      and risk management for investment firms, family offices, and wealth managers.
+    </p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>What we do</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Analytics</h3>
+        <p>Institutional-grade dashboards and risk signals.</p>
+      </div>
+      <div class="card">
+        <h3>API Suite</h3>
+        <p>Secure data feeds and portfolio integrations.</p>
+      </div>
+      <div class="card">
+        <h3>Fintech consulting</h3>
+        <p>Custom AI/data setups for financial institutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section team">
+    <h2>Leadership</h2>
+    <div class="team-box">
+      <!-- 把下面这张图换成你自己的，文件放在 images/ceo.jpg -->
+      <img src="images/ceo.jpg" alt="CEO" />
+      <div>
+        <h3>Maria Smirnova</h3>
+        <p>Founder & CEO</p>
+        <p>Stanford finance · ex-Morgan Stanley · now building Capella in SF.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>HQ: 580 California St Suite 1200, San Francisco, CA 94104</p>
+    <p>WhatsApp: +1 (346) 820-8636</p>
+    <p>Email: info@capelladata.io (placeholder)</p>
+  </section>
+
+  <footer>
+    © 2025 Capella Data Inc. · San Francisco
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
